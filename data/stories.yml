@@ -1,0 +1,32 @@
+version: "3.1"
+
+stories:
+  - story: main
+    steps:
+      - intent: greet
+      - action: utter_greet
+  - story: ask_apa_itu_pemrograman_dasar
+    steps:
+      - intent: apa_itu_pemrograman_dasar
+      - action: utter_apa_itu_pemrograman_dasar
+      - action: utter_loop
+  - story: ask_bahasa_pemrograman
+    steps:
+      - intent: bahasa_pemrograman
+      - action: utter_bahasa_pemrograman
+      - action: utter_loop
+  - story: ask_konsep_pemrograman
+    steps:
+      - intent: konsep_pemrograman
+      - action: utter_konsep_pemrograman
+      - action: utter_loop
+  - story: ask_algoritma
+    steps:
+      - intent: algoritma
+      - action: utter_algoritma
+      - action: utter_loop
+  - story: ask_kategori_bahasa_pemrograman
+    steps:
+      - intent: kategori_bahasa_pemrograman
+      - action: utter_kategori_bahasa_pemrograman
+      - action: utter_loop

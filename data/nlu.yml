@@ -1,0 +1,35 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - p
+      - halo
+      - hai
+      - assalamualaikum
+      - selamat pagi
+      - selamat siang
+      - selamat sore
+      - selamat malam
+      - /start
+  - intent: apa_itu_pemrograman_dasar
+    examples: |
+      - apa itu pemrograman dasar
+      - pemrograman dasar
+  - intent: bahasa_pemrograman
+    examples: |
+      - apa bahasa pemrograman yang digunakan dalam pemrograman dasar
+      - bahasa pemrograman
+  - intent: konsep_pemrograman
+    examples: |
+      - apa konsep pada pemrograman dasar
+      - konsep pemrograman
+  - intent: algoritma
+    examples: |
+      - apa fungsi algoritma
+      - fungsi algoritma
+  - intent: kategori_bahasa_pemrograman
+    examples: |
+      - apa saja kategori bahasa pemrograman
+      - apa ketegori bahasa pemrograman
+      - kategori bahasa pemrograman

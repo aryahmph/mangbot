@@ -1,0 +1,67 @@
+version: "3.1"
+
+intents:
+  - greet
+  - apa_itu_pemrograman_dasar
+  - bahasa_pemrograman
+  - konsep_pemrograman
+  - algoritma
+  - kategori_bahasa_pemrograman
+
+responses:
+  utter_greet:
+    - buttons:
+        - payload: /apa_itu_pemrograman_dasar
+          title: Tentang pemrograman dasar
+        - payload: /bahasa_pemrograman
+          title: Bahasa dalam Pemrograman Dasar
+        - payload: /konsep_pemrograman
+          title: Konsep pada Pemrograman Dasar
+        - payload: /algoritma
+          title: Tentang Algoritma
+        - payload: /kategori_bahasa_pemrograman
+          title: Kategori Bahasa Pemrograman
+      button_type: vertical
+      text: |-
+        Halo, selamat datang di Mangbot!
+
+        Ada yang ingin anda tanyakan? Kami akan membantu anda untuk mengenalkan dasar pemograman pada anda!
+
+  utter_loop:
+    - buttons:
+        - payload: /apa_itu_pemrograman_dasar
+          title: Tentang pemrograman dasar
+        - payload: /bahasa_pemrograman
+          title: Bahasa dalam Pemrograman Dasar
+        - payload: /konsep_pemrograman
+          title: Konsep pada Pemrograman Dasar
+        - payload: /algoritma
+          title: Tentang Algoritma
+        - payload: /kategori_bahasa_pemrograman
+          title: Kategori Bahasa Pemrograman
+      button_type: vertical
+      text: |-
+        Ada yang ingin anda tanyakan lagi ?
+  utter_apa_itu_pemrograman_dasar:
+    - text: |-
+        Pemrograman dasar adalah pembelajaran yang memberikan dasar-dasar logika yang bersifat universal dan
+        mengedepankan pembentukan pola pikir seseorang mengenai membuat suatu program yang efektif dan efisien. Sehingga dasar-dasar universal ini dapat diterapkan pada bahasa pemrograman apa pun, kapan pun, dimana pun.
+
+  utter_bahasa_pemrograman:
+    - text: Java, Python, C/C++, Visual basic, dan lain-lain.
+
+  utter_konsep_pemrograman:
+    - text: sekuensial, percabangan/bersyarat (conditional), dan perulangan (loop).
+
+  utter_algoritma:
+    - text: Fungsi utama algoritma pemrograman adalah untuk menyelesaikan permasalahan rumit dalam suatu program yang melibatkan perhitungan tingkat tinggi. Selain itu dapat menyederhanakan suatu program sehingga penggunaannya lebih efektif dan efisien. Adanya alur proses yang jelas sehingga dapat mudah mencari kesalahan jika terjadi error.
+
+  utter_kategori_bahasa_pemrograman:
+    - text: |-
+        Bahasa Mesin: Bahasa asli dari mesin, biasanya terdiri dari bilangan biner (0100101).
+        Bahasa Assembly: Penyederhanaan dari bahasa mesin. Biasanya instruksinya dibuat dalam bentuk singkatan, seperti ADD dan MOV.
+        Bahasa Tingkat Tinggi: Bahasa pemrograman yang paling mudah dimengerti manusia. Karena perintahnya sudah menggunakan bahasa yang dimengerti. Contohnyai C++, PHP, dan Java.
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
