@@ -7,7 +7,7 @@ recipe: default.v1
 language: id
 
 pipeline:
-  - name: WhitespaceTokenizer
+  - name: tokenizers.custom_tokenizer.CustomTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer

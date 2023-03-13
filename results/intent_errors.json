@@ -1,0 +1,146 @@
+[
+  {
+    "text": "p",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.014734552464013268
+    }
+  },
+  {
+    "text": "halo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.014659991829802953
+    }
+  },
+  {
+    "text": "hai",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.01607078710399847
+    }
+  },
+  {
+    "text": "assalamualaikum",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.013562418096508561
+    }
+  },
+  {
+    "text": "selamat pagi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.012110128340890071
+    }
+  },
+  {
+    "text": "selamat siang",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.01356223208841769
+    }
+  },
+  {
+    "text": "selamat sore",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.008595091280185464
+    }
+  },
+  {
+    "text": "selamat malam",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.0073470627847418615
+    }
+  },
+  {
+    "text": "/start",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.012729745743254904
+    }
+  },
+  {
+    "text": "apa itu pemrograman dasar",
+    "intent": "apa_itu_pemrograman_dasar",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.0044480615296215754
+    }
+  },
+  {
+    "text": "pemrograman dasar",
+    "intent": "apa_itu_pemrograman_dasar",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.0037831711734334574
+    }
+  },
+  {
+    "text": "apa bahasa pemrograman yang digunakan dalam pemrograman dasar",
+    "intent": "bahasa_pemrograman",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 2.0179292786021875e-05
+    }
+  },
+  {
+    "text": "bahasa pemrograman",
+    "intent": "bahasa_pemrograman",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.0052456823618543345
+    }
+  },
+  {
+    "text": "apa konsep pada pemrograman dasar",
+    "intent": "konsep_pemrograman",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.0010081726928799798
+    }
+  },
+  {
+    "text": "konsep pemrograman",
+    "intent": "konsep_pemrograman",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.004058249249005776
+    }
+  },
+  {
+    "text": "apa saja kategori bahasa pemrograman",
+    "intent": "kategori_bahasa_pemrograman",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.0010306304713978856
+    }
+  },
+  {
+    "text": "apa ketegori bahasa pemrograman",
+    "intent": "kategori_bahasa_pemrograman",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.0035125028261838932
+    }
+  },
+  {
+    "text": "kategori bahasa pemrograman",
+    "intent": "kategori_bahasa_pemrograman",
+    "intent_prediction": {
+      "name": "algoritma",
+      "confidence": 0.004292328023656524
+    }
+  }
+]

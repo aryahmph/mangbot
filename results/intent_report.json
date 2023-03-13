@@ -1,63 +1,73 @@
 {
   "konsep_pemrograman": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 2,
-    "confused_with": {}
+    "confused_with": {
+      "algoritma": 2
+    }
+  },
+  "apa_itu_pemrograman_dasar": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "algoritma": 2
+    }
   },
   "algoritma": {
-    "precision": 1.0,
+    "precision": 0.1,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "bahasa_pemrograman": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "f1-score": 0.18181818181818182,
     "support": 2,
     "confused_with": {}
   },
   "kategori_bahasa_pemrograman": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 3,
-    "confused_with": {}
+    "confused_with": {
+      "algoritma": 3
+    }
   },
-  "apa_itu_pemrograman_dasar": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+  "bahasa_pemrograman": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 2,
-    "confused_with": {}
+    "confused_with": {
+      "algoritma": 2
+    }
   },
   "greet": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
     "support": 9,
-    "confused_with": {}
+    "confused_with": {
+      "algoritma": 9
+    }
   },
-  "accuracy": 1.0,
+  "accuracy": 0.1,
   "macro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "precision": 0.016666666666666666,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.030303030303030304,
     "support": 20
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "precision": 0.01,
+    "recall": 0.1,
+    "f1-score": 0.01818181818181818,
     "support": 20
   },
   "micro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "precision": 0.1,
+    "recall": 0.1,
+    "f1-score": 0.1,
     "support": 20
   }
 }

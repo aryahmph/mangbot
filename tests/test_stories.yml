@@ -36,3 +36,18 @@ stories:
   - action: utter_bahasa_pemrograman
   - action: utter_loop
 
+- story: ask_algoritma
+  steps:
+  - user: |
+      algoritma
+    intent: algoritma
+  - action: utter_algoritma
+  - action: utter_loop
+
+- story: ask_algoritma
+  steps:
+  - user: |
+      apa itu algoritma
+    intent: algoritma
+  - action: utter_algoritma
+  - action: utter_loop

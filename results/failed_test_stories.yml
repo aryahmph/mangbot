@@ -1,1 +1,16 @@
-# None of the test stories failed - all good!
+version: "3.1"
+stories:
+- story: main (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: nlu_fallback: selamat siang
+  - action: utter_greet
+- story: ask_bahasa_pemrograman (.\tests\test_stories.yml)
+  steps:
+  - intent: bahasa_pemrograman  # predicted: nlu_fallback: bahasa pemrograman itu apaan sih
+  - action: utter_bahasa_pemrograman
+  - action: utter_loop
+- story: ask_bahasa_pemrograman (.\tests\test_stories.yml)
+  steps:
+  - intent: bahasa_pemrograman  # predicted: nlu_fallback: bahasa pemrograman itu apaan sih😊
+  - action: utter_bahasa_pemrograman
+  - action: utter_loop

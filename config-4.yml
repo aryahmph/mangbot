@@ -7,7 +7,7 @@ recipe: default.v1
 language: id
 
 pipeline:
-  - name: WhitespaceTokenizer
+  - name: tokenizers.custom_tokenizer.CustomTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -15,9 +15,10 @@ pipeline:
     analyzer: char_wb
     min_ngram: 1
     max_ngram: 4
-  - name: DIETClassifier
-    epochs: 100
-    constrain_similarities: true
+  - name: classifiers.classifiers.LogisticRegressionClassifier
+    solver: lbfgs
+    max_iter: 120
+    class_weight: balanced
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
